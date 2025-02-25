@@ -1,0 +1,25 @@
+<div class="container">
+  <mat-card *ngFor="let card of cards; let i = index" class="card">
+    <mat-card-header>
+      <mat-card-title>
+        <mat-icon>landscape</mat-icon>
+        {{ card.titulo }}
+      </mat-card-title>
+    </mat-card-header>
+
+    <img mat-card-image [src]="card.imagem" alt="Imagem do card">
+
+    <mat-card-content>
+      <p>{{ card.descricao }}</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-button (click)="curtir(i)">
+        <mat-icon>thumb_up</mat-icon> Curtir ({{ card.curtidas }})
+      </button>
+      <button mat-button (click)="compartilhar(i)">
+        <mat-icon>share</mat-icon> Compartilhar
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
