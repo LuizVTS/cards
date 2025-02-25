@@ -13,19 +13,19 @@ export class AppComponent {
     {
       titulo: 'Montanhas Nevadas',
       descricao: 'Uma bela paisagem de montanhas cobertas de neve.',
-      imagem: 'https://source.unsplash.com/400x200/?mountain,snow',
+      imagem: 'https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg',
       curtidas: 0
     },
     {
       titulo: 'Praia Paradisíaca',
       descricao: 'Areia branca e um mar azul cristalino.',
-      imagem: 'https://source.unsplash.com/400x200/?beach',
+      imagem: 'https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg',
       curtidas: 0
     },
     {
       titulo: 'Floresta Encantada',
       descricao: 'Caminho misterioso por entre as árvores.',
-      imagem: 'https://source.unsplash.com/400x200/?forest',
+      imagem: 'https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg',
       curtidas: 0
     }
   ];
